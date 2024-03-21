@@ -1,0 +1,325 @@
+@font-face {
+    font-family: "Proxima";
+    src: url("../font/proximanova_bold.otf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Proxima";
+    src: url("../font/proximanova_regular.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Proxima";
+    src: url("../font/proximanova_light.otf");
+    font-weight: 300;
+}
+* {
+    align-self: center;
+}
+body {
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+.prox {
+    font-family: "Proxima";
+}
+.fs20 {
+    font-size: 20px;
+}
+.fs28 {
+    font-size: 28px;
+}
+.fs32 {
+    font-size: 32px;
+}
+.fs40 {
+    font-size: 40px;
+}
+.fw3 {
+    font-weight: 300;
+}
+.fw5 {
+    font-weight: 500;
+}
+.fw7 {
+    font-weight: 700;
+}
+.fw9 {
+    font-weight: 900;
+}
+.white {
+    color: white;
+}
+.grey {
+    color: #cccccc;
+}
+.greyer {
+    color: #bcbcbc;
+}
+.red {
+    color: #ff3f3f;
+}
+.pad {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.flex {
+    display: flex;
+}
+.mg_t100 {
+    margin-top: 100px;
+}
+.back_back {
+    background-color: #ff3f3f;
+    height: 1400px;
+}
+.first_page {
+    background-image: url(../image/black.png);
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    height: 1350px;
+    padding-top: 50px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    text-decoration: none;
+}
+.nav_btn {
+    background-color: white;
+    border: 0px solid green;
+    border-radius: 12px;
+    height: 100px;
+    width: 300px;
+}
+.h1 {
+    font-size: 120px;
+}
+.search {
+    width: 700px;
+    height: 100px;
+    background-color: white;
+    border: 0px solid green;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+.search div {
+    display: flex;
+    align-items: center;
+}
+.search input {
+    border: 0px solid green;
+    height: 80px;
+    width: 300px;
+    font-size: 32px;
+    font-family: "Proxima";
+    font-weight: 500px;
+}
+.search img {
+    width: 64px;
+}
+.search_btn {
+    background-color: #ff3f3f;
+    border: 0px solid green;
+    border-radius: 12px;
+    height: 80px;
+    width: 240px;
+}
+.stats {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+.flex_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.headline {
+    display: flex;
+    justify-content: space-between;
+}
+.headline div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+}
+.house_block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 0px solid green;
+    border-radius: 12px;
+    box-shadow: 0px 1px 21px -1px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 0px 1px 21px -1px rgba(0,0,0,0.46);
+    -moz-box-shadow: 0px 1px 21px -1px rgba(0,0,0,0.46);
+    width: 25%;
+}
+.house_photo {
+    width: 100%;
+    height: 400px;
+}
+.houses {
+    display: flex;
+    justify-content: space-between;
+}
+.start {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.house_stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid black;
+    z-index: 2;
+    background-color: white;
+}
+.house_stat_block {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px 21px -1px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 0px 1px 21px -1px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 1px 21px -1px rgba(0,0,0,0.26);
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border: 0px solid green;
+    border-radius: 12px;
+    z-index: 3;
+    background-color: white;
+}
+.second_page {
+    z-index: 5;
+}
+.black_back {
+    background-color: black;
+    height: 600px;
+    z-index: -1;
+    position: relative;
+    bottom: 75px;
+    padding-top: 200px;
+}
+.john {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.john_p {
+    width: 700px;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    border-top: 2px solid #cccccc;
+}
+.fourth_page {
+    display: flex;
+    justify-content: space-between;
+}
+.info {
+    width: 50%;
+}
+.info h4 {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+.article {
+    box-shadow: 0px 1px 21px -1px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 0px 1px 21px -1px rgba(0,0,0,0.46);
+    -moz-box-shadow: 0px 1px 21px -1px rgba(0,0,0,0.46);
+    width: 80%;
+    height: 100px;
+    border: 0px solid green;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 30px;
+}
+.article span {
+    width: 70%;
+}
+.tick {
+    width: 64px;
+}
+.plus {
+    width: 40px;
+}
+.house_info {
+    width: 40%;
+}
+.blogs_h2 {
+    font-size: 70px;
+}
+.blogs {
+    display: flex;
+    justify-content: space-between;
+}
+.blogk {
+    width: 25%;
+}
+.blogk img {
+    width: 120%;
+}
+.blogk h5 {
+    border-top: 2px solid #000;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 700px;
+    margin-top: 100px;
+}
+.foot_h2 {
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+.foot_h5 {
+    font-size: 30px;
+}
+.foot_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    border-top: 2px solid #cccccc;
+    margin-top: 100px;
+}
+.foot_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.foot_under {
+    border-bottom: 1px solid #cccccc;
+}
+.finale {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}

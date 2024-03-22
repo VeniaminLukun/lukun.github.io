@@ -82,6 +82,9 @@ a {
     height: 1350px;
     padding-top: 50px;
 }
+.first_wid {
+    width: 60%;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -92,6 +95,9 @@ a {
     align-items: center;
     width: 50%;
     text-decoration: none;
+}
+.nav a:hover {
+    border-bottom: 1px solid #cccccc;
 }
 .nav_btn {
     background-color: white;
@@ -121,10 +127,10 @@ a {
 .search input {
     border: 0px solid green;
     height: 80px;
-    width: 300px;
+    width: 100%;
     font-size: 32px;
     font-family: "Proxima";
-    font-weight: 500px;
+    font-weight: 500;
 }
 .search img {
     width: 64px;
@@ -161,10 +167,13 @@ a {
     align-items: flex-start;
     border: 0px solid green;
     border-radius: 12px;
+    width: 25%;
+    transition: box-shadow 0.5s;
+}
+.house_block:hover {
     box-shadow: 0px 1px 21px -1px rgba(0,0,0,0.46);
     -webkit-box-shadow: 0px 1px 21px -1px rgba(0,0,0,0.46);
     -moz-box-shadow: 0px 1px 21px -1px rgba(0,0,0,0.46);
-    width: 25%;
 }
 .house_photo {
     width: 100%;
@@ -312,6 +321,9 @@ a {
     display: flex;
     justify-content: space-between;
     width: 50%;
+}
+.foot_menu a:hover {
+    border-bottom: 1px solid #cccccc;
 }
 .foot_under {
     border-bottom: 1px solid #cccccc;
